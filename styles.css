@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    background-color: #d2b4de;
+    background-color: #93bbbd;
     min-height: 100vh;
     overflow-x: hidden;
 }
@@ -220,6 +220,12 @@ main {
 
 /* Subtitles */
 .content-section h4 {
+    font-size: 1.2em;
+    color: #5b2c6f;
+    margin-bottom: 15px;
+}
+
+.content-section h5 {
     font-size: 1.2em;
     color: #5b2c6f;
     margin-bottom: 15px;
