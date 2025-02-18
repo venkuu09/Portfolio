@@ -1,12 +1,8 @@
 # 🌟 Welcome to My Portfolio   
 
 ## 🚀 Live Preview  
-🔗 [View Portfolio](https://venkuu09.github.io/Portfolio/)   
-
-## 🛠️ Technologies Used  
-- **Frontend:** HTML, CSS, JavaScript
-- **Deployment:** GitHub Pages 
+🔗 [View Portfolio](https://venkuu09.github.io/Portfolio/)    
 
 ## 📬 Contact Me  
-📧 Email: [aswinigangaraju253@example.com](mailto:your-email@example.com)  
-🐙 GitHub: [aswinigangaraju](https://github.com/aswinigangaraju)  
+📧 Email: [venkateshmudam94@gmail.com](mailto:your-email@example.com)  
+🐙 GitHub: [Venkatesh Mudam](https://github.com/venkuu09)  
