@@ -1,11 +1,11 @@
-<!-- HTML file (index.html) -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Venkatesh Mudam | Portfolio</title>
+    <title>Aswini Gangaraju | Portfolio</title>
+    <link rel="logo" href="images/logo.gif" type="logo">
 </head>
 <body>
     <!-- Sidebar Section -->
@@ -13,26 +13,25 @@
         <div class="sidebar">
             <div class="profile">
                 <img src="images/profile.png" alt="Profile Picture">
-                <h1>Venkatesh Mudam</h1>
-                <p id="typewriter-text">I'm a,&nbsp;<span id="roles"></span></p> <!-- 'roles' -->
+                <h1>Aswini Gangaraju</h1>
+                <p id="typewriter-text">I'm a,&nbsp;<span id="roles"></span></p>
             </div>
             <div class="sidebar-nav">
                 <ul>
                     <li><a href="#about">About</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#skills">Skills</a></li>
-                    <!-- <li><a href="#projects">Projects</a></li> -->
                     <li><a href="#education">Education</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
             <div class="sidebar-footer">
                 <div class="social-media">
-                    <a href="https://github.com/venkuu09" target="_blank"><img src="images/github.png" alt="GitHub"></a>
+                    <a href="https://github.com/aswinigangaraju" target="_blank"><img src="images/github.png" alt="GitHub"></a>
                     <a href="https://www.linkedin.com/in/aswini-gangaraju/" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
                     <a href="https://medium.com/@aswinigangaraju" target="_blank"><img src="images/medium.png" alt="Medium"></a>
                 </div>
-                    <a href="venkateshmudam94@gmail.com" class="email-button">Email Me</a>
+                    <a href="aswinigangaraju253@gmail.com" class="email-button">Email Me</a>
                 </div>
             </div>
         </div>
@@ -43,240 +42,134 @@
         <!-- About Section -->
         <section id="about" class="content-section">
             <h2>About</h2>
-            <h4>I'm a Skilled Full Stack Java Developer | Web Developer</h4>
-            <p>I am a passionate Full Stack Developer with over 9 years of experience in designing and building scalable, high-performance web applications. With a strong foundation in Java, Spring Boot, React.js, and cloud technologies, I specialize in developing robust backend services and dynamic front-end applications.
+            <h4>
+                <img src="images/working-emoji.png" alt="working-emoji" class="icon">
+                 Senior Full Stack Java Developer
+            </h4>
+            <p>I am a passionate Senior Full Stack Developer with over 8 years of experience in designing and developing scalable, high-performance web applications. I specialize in building robust backend services and dynamic front-end experiences, following best practices in microservices architecture, cloud computing, and secure authentication.
+                <br> <br>
+                Throughout my career, I have contributed to enterprise banking solutions, IoT platforms, and healthcare systems, ensuring efficiency, security, and seamless user experiences. I have a strong foundation in Agile methodologies and Test-Driven Development (TDD), writing clean, maintainable, and reliable code.
                 <br><br>
-            I have worked across banking, management, and healthcare, building solutions such as CRM platforms, POS systems, secure payment gateways, and patient portals. My expertise spans microservices architecture, cloud-native deployments, database management, and performance optimization.
-                <br><br>
-            🚀 Passionate about innovation, continuous learning, and building user-centric applications!</p>
-        </section>
+                Currently, I work as a Senior Full Stack Developer at Fifth Third Bank, leading the development of NextGen Digital Banking, a modern financial platform that enhances online banking experiences. My passion lies in building scalable, user-friendly software while continuously learning and improving.
+                 <br><br>
+                🚀 Passionate about innovation, continuous learning, and developing user-centric applications that solve real-world problems while ensuring the highest levels of scalability, security, and performance.
 
-        
+            </p>
+        </section>
 
         <!-- Experience Section -->
         <section id="experience" class="content-section">
             <h2>Experience</h2>
             <div id="job">
-                <div class="job-entry">
-                    <div class="job-entry-header">
-                        <h3>Full Stack Developer</h3>
-                    </div>
-                    <div class="job-details">
-                        <span id="client-name"><strong>Fifth Third</strong></span>
-                        <span id="duration"><strong>Aug 2023 - Present</strong></span>
-                    </div>
-                    <p>Leading the development of ClientConnect, a CRM system designed to enhance client relationship management by tracking interactions, managing leads, and automating sales workflows. 
-                        <br> <br>
-                    Developed secure and scalable RESTful APIs using Spring Boot, Hibernate, and JWT authentication, while integrating microservices with Spring Cloud for service discovery and load balancing. Built dynamic SPAs with Angular and React.js, implementing Redux and Angular services for efficient state management. Optimized data models for MySQL and Cassandra, integrating AWS RDS for scalable storage. Deployed and managed applications using AWS, Docker, and Kubernetes, ensuring high availability and cost efficiency. Automated CI/CD pipelines with Jenkins, enabling faster and more reliable deployments. Collaborated in Agile sprints using JIRA, ensuring timely delivery of project milestones.
-                    <!--
-                        <br><br>
-                    <strong>Tech Stack:</strong> Java, Spring Boot, Hibernate, JWT, Spring Cloud, Angular, React.js, Redux, MySQL, Cassandra, AWS, Docker, Kubernetes, Jenkins, JIRA.
-                -->
-                </p>
-               
+                <div class="job-entry-header">
+                    <h3>Senior Full Stack Developer</h3>
                 </div>
-                <div class="job-entry">
-                    <div class="job-entry-header">
-                        <h3>Full Stack Developer</h3>
-                    </div>
-                    <div class="job-details">
-                        <span id="client-name"><strong>Intel</strong></span>
-                        <span id="duration"><strong>Sep 2021 - July 2023</strong></span>
-                    </div>
-                    <p>Developed CloudPOS, a cloud-based point-of-sale system that streamlines transaction processing, inventory management, and reporting while ensuring real-time data synchronization and secure multi-device access. 
-                        <br> <br>
-                        Designed and implemented secure RESTful APIs using Spring Boot, Hibernate, and JWT authentication, while integrating microservices with a React.js front end for seamless system performance. Built dynamic SPAs with React.js, leveraging Redux for efficient state management and React Router for smooth navigation. Implemented Spring Batch and Quartz Scheduler to handle large-volume job processing and transaction management. Integrated Cassandra NoSQL database with Spring Data for high-performance data access and persistence. Deployed containerized Spring Boot applications using Docker and Pivotal Cloud Foundry (PCF) for scalable cloud-native deployment. Worked in Agile sprints using JIRA, collaborating across teams to ensure efficient feature development and timely project delivery. 
-                        <!--
-                        <br><br>
-                        <strong>Tech Stack:</strong> Java, Spring Boot, Hibernate, JWT, React.js, Redux, Spring Batch, Quartz Scheduler, Cassandra, Docker, PCF, JIRA.
-                    -->
-                    </p>
-                    
+                <div class="job-details">
+                    <span id="client-name"><strong>Fifth Third Bank</strong></span>
+                    <span id="duration"><strong>Aug 2023 - Present</strong></span>
                 </div>
-                <div class="job-entry">
-                    <div class="job-entry-header">
-                        <h3>Software Engineer | Java Backend Developer</h3>
-                    </div>
-                    <div class="job-details">
-                        <span id="client-name"><strong>HSBC Bank</strong></span>
-                        <span id="duration"><strong>Jan 2020 - Aug 2021</strong></span>
-                    </div>
-                    <p>
-                        Developed PayShield, a high-performance secure payment gateway designed to facilitate seamless financial transactions while ensuring data security, scalability, and real-time processing. 
-                        <br> <br>
-                        Engineered and secured RESTful APIs using Spring Boot, Hibernate, and JWT authentication to support secure and efficient backend operations. Built and integrated microservices-oriented architecture with React.js on the frontend and Spring Boot-based services on the backend. Implemented Spring Batch and Quartz Scheduler for high-volume transaction processing and resource optimization. Developed SPAs using React.js with Redux for state management and React-Router for seamless navigation. Designed and optimized data pipelines for Snowflake, leveraging features like time travel, zero-copy cloning, and automatic scaling. Integrated Cassandra NoSQL database using Spring Data for high-performance data access. Deployed containerized Spring Boot applications with Docker and PCF (Pivotal Cloud Foundry) for scalable cloud-native deployment. Configured CI/CD pipelines using Jenkins, automated batch jobs, and enhanced DevOps processes. Conducted unit testing with JUnit and Mockito, behavioral testing with Cucumber, and UI automation testing with Selenium. Collaborated in Agile sprints using JIRA, ensuring smooth cross-team coordination and timely feature deliveries.
-                        <!--
-                        <br><br> 
-                        <strong>Tech Stack:</strong> Java, Spring Boot, Hibernate, JWT, React.js, Redux, Snowflake, Cassandra, PCF, Docker, Jenkins, JUnit, Mockito, Cucumber, Selenium, Agile, JIRA.
-                    -->
-                    </p>
+
+                <div class="job-entry-header">
+                    <h3>Full Stack Developer</h3>
                 </div>
-                <div class="job-entry">
-                    <div class="job-entry-header">
-                        <h3>Software Developer</h3>
-                    </div>
-                    <div class="job-details">
-                        <span id="client-name"><strong>Aprima Medical Software</strong></span>
-                        <span id="duration"><strong>May 2018 - Dec 2019</strong></span>
-                    </div>
-                    <p>Developed MediCloud, a cloud-based patient portal designed to enhance healthcare accessibility by enabling secure access to medical records, appointment scheduling, and provider communication while ensuring data privacy and compliance.
-                        <br> <br>
-                        Designed and built RESTful Web Services using Spring Boot, integrating seamlessly with frontend components for dynamic data management. Implemented secure authentication and authorization using JWT and OAuth 2.0 to protect sensitive healthcare information. Developed user-friendly interfaces using React.js, TypeScript, HTML, and CSS, leveraging React Hooks for improved component reusability and performance. Integrated SQL databases for efficient data storage and synchronization with backend services. Deployed scalable cloud-based solutions on Google Cloud Platform (GCP) to ensure high availability and reliability. Automated CI/CD pipelines using Jenkins and Docker, streamlining software delivery and deployment. Conducted rigorous unit testing with JUnit and Mockito to ensure software quality and reliability. Worked in Agile sprints, collaborating across teams to enhance development efficiency and meet project milestones. 
-                        <!--
-                        <br><br> 
-                        <strong>Tech Stack:</strong> Java, Spring Boot, JWT, OAuth 2.0, React.js, TypeScript, HTML, CSS, SQL, GCP, Docker, Jenkins, JUnit, Mockito.
-                    -->
-                    </p>
+                <div class="job-details">
+                    <span id="client-name"><strong>Intel Corporation</strong></span>
+                    <span id="duration"><strong>Sep 2021 - July 2023</strong></span>
                 </div>
-                <div class="job-entry">
-                    <div class="job-entry-header">
-                        <h3>Software Developer</h3>
-                    </div>
-                    <div class="job-details">
-                        <span id="client-name"><strong>Safexpress Private Limited</strong></span>
-                        <span id="duration"><strong>June 2016 - Apr 2018</strong></span>
-                    </div>
-                    <p>
-                        Developed TrackMaster, a smart logistics tracking system designed to provide real-time shipment tracking, route optimization, and automated notifications, ensuring transparency and operational efficiency in supply chain management.
-                        <br> <br>
-                        Designed and optimized Java-based backend systems to handle shipment data processing, inventory updates, and logistics automation. Developed and integrated RESTful APIs to facilitate seamless data exchange between logistics modules and third-party services. Built responsive front-end interfaces using HTML, CSS, JavaScript, and React.js to enhance user experience. Managed and optimized SQL databases for efficient logistics data retrieval and storage. Contributed to cloud-based solutions to improve system scalability and performance. Conducted unit testing, debugging, and performance optimization to ensure reliability and efficiency. Collaborated with cross-functional teams to enhance logistics automation and streamline operational workflows.
-                        <!--
-                        <br><br> 
-                        <strong>Tech Stack:</strong> Java, Spring Boot, RESTful APIs, React.js, HTML, CSS, JavaScript, SQL, Cloud Solutions, Unit Testing, Agile.
-                    -->
-                    </p>
+
+                <div class="job-entry-header">
+                    <h3>Full Stack Developer</h3>
+                </div>
+                <div class="job-details">
+                    <span id="client-name"><strong>HSBC</strong></span>
+                    <span id="duration"><strong>Jan 2020 - Aug 2021</strong></span>
+                </div>
+
+                <div class="job-entry-header">
+                    <h3>Full Stack Developer</h3>
+                </div>
+                <div class="job-details">
+                    <span id="client-name"><strong>Aprima Medical Software</strong></span>
+                    <span id="duration"><strong>May 2018 - Dec 2019</strong></span>
+                </div>
+
+                <div class="job-entry-header">
+                    <h3>Software Developer Intern</h3>
+                </div>
+                <div class="job-details">
+                    <span id="client-name"><strong>Safexpress Private Limited</strong></span>
+                    <span id="duration"><strong>June 2016 - Apr 2018</strong></span>
                 </div>
             </div>
         </section>
-
 
         <!-- Skills Section -->
         <section id="skills" class="content-section">
             <h2>Skills</h2>
             <div class="skills-grid">
-                <div class="skills-item">Java</div>
-                <div class="skills-item">JavaScript</div>
-                <div class="skills-item">TypeScript</div>
                 <div class="skills-item">HTML5</div>
                 <div class="skills-item">CSS3</div>
-                <div class="skills-item">Spring Boot</div>
-                <div class="skills-item">Spring Cloud</div>
-                <div class="skills-item">Spring Batch</div>
-                <div class="skills-item">Hibernate</div>
+                <div class="skills-item">SCSS</div>
+                <div class="skills-item">SASS</div>
                 <div class="skills-item">React.js</div>
                 <div class="skills-item">Redux</div>
+                <div class="skills-item">React-Router</div>
+                <div class="skills-item">Redux Toolkit</div>
                 <div class="skills-item">Angular</div>
+                <div class="skills-item">Angular CLI</div>
+                <div class="skills-item">RxJS</div>
+                <div class="skills-item">Tailwind CSS</div>
+                <div class="skills-item">Material UI</div>
+                <div class="skills-item">Bootstrap</div>
+                <div class="skills-item">Java</div>
+                <div class="skills-item">Spring Boot</div>
+                <div class="skills-item">Spring MVC</div>
+                <div class="skills-item">Hibernate</div>
+                <div class="skills-item">Node.js</div>
+                <div class="skills-item">Express.js</div>
+                <div class="skills-item">TypeScript</div>
+                <div class="skills-item">JavaScript</div>
+                <div class="skills-item">WebSockets</div>
+                <div class="skills-item">MQTT</div>
+                <div class="skills-item">Redis</div>
                 <div class="skills-item">MySQL</div>
+                <div class="skills-item">Oracle</div>
+                <div class="skills-item">MongoDB</div>
                 <div class="skills-item">Cassandra</div>
-                <div class="skills-item">Snowflake</div>
-                <div class="skills-item">AWS RDS</div>
-                <div class="skills-item">Google Cloud Databases</div>
-                <div class="skills-item">Amazon Web Service (AWS)</div>
-                <div class="skills-item">Google Cloud Platform (GCP)</div>
-                <div class="skills-item">Pivotal Cloud Foundry (PCF)</div>
-                <div class="skills-item">Docker</div>
+                <div class="skills-item">Apache Kafka</div>
+                <div class="skills-item">RabbitMQ</div>
+                <div class="skills-item">AWS</div>
+                <div class="skills-item">EC2</div>
+                <div class="skills-item">S3</div>
+                <div class="skills-item">RDS</div>
+                <div class="skills-item">DynamoDB</div>
+                <div class="skills-item">Lambda</div>
+                <div class="skills-item">ECS</div>
+                <div class="skills-item">Google Cloud</div>
                 <div class="skills-item">Kubernetes</div>
-                <div class="skills-item">CI/CD (Jenkins)</div>
+                <div class="skills-item">Jenkins</div>
+                <div class="skills-item">Docker</div>
+                <div class="skills-item">Maven</div>
+                <div class="skills-item">Terraform</div>
+                <div class="skills-item">Jenkins Pipelines</div>
+                <div class="skills-item">GitHub</div>
+                <div class="skills-item">Git</div>
+                <div class="skills-item">GitLab</div>
+                <div class="skills-item">OAuth</div>
+                <div class="skills-item">JWT</div>
                 <div class="skills-item">JUnit</div>
                 <div class="skills-item">Mockito</div>
-                <div class="skills-item">Selenium</div>
-                <div class="skills-item">Cucumber</div>
-                <div class="skills-item">Git</div>
-                <div class="skills-item">GitHub</div>
-                <div class="skills-item">Agile (Scrum/Kanban)</div>
+                <div class="skills-item">Cypress</div>
+                <div class="skills-item">Unit Testing</div>
+                <div class="skills-item">Integration Testing</div>
+                <div class="skills-item">Splunk</div>
+                <div class="skills-item">Agile</div>
+                <div class="skills-item">Scrum</div>
+                <div class="skills-item">Test-Driven Development (TDD)</div>
+                <div class="skills-item">Jira</div>
+
             </div>
         </section>
-
-
-
-
-        <!-- Projects Section
-        <section id="projects" class="content-section">
-            <h2>My Projects</h2>
-            <div class="projects-container">
-                -- Project Card 1 --
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/project-1.jpg" alt="Project 1">
-                    </div>
-                    <div class="project-title">
-                        <h3>FULL RESPONSIVE</h3>
-                    </div>
-                    <div class="project-description">
-                        <p>A well-organized paragraph supports or develops a single controlling idea, which is expressed in a sentence called the topic sentence. A topic sentence has several important functions: it substantiates or supports an essay’s thesis statement.</p>
-                    </div>
-                    <div class="project-link">
-                        <a href="#" class="button" target="_blank">GitHub</a>
-                        <a href="#" class="button" target="_blank">Project</a>
-                    </div>
-                </div>
-                -- Project Card 2 --
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/project-2.png" alt="Project 2">
-                    </div>
-                    <div class="project-title">
-                        <h3>FULL RESPONSIVE</h3>
-                    </div>
-                    <div class="project-description">
-                        <p>A well-organized paragraph supports or develops a single controlling idea, which is expressed in a sentence called the topic sentence. A topic sentence has several important functions: it substantiates or supports an essay’s thesis statement.</p>
-                    </div>
-                    <div class="project-link">
-                        <a href="#" class="button" target="_blank">GitHub</a>
-                        <a href="#" class="button" target="_blank">Project</a>
-                    </div>
-                </div>
-                -- Project Card 3 --
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/project-3.jpg" alt="Project 3">
-                    </div>
-                    <div class="project-title">
-                        <h3>FULL RESPONSIVE</h3>
-                    </div>
-                    <div class="project-description">
-                        <p>A well-organized paragraph supports or develops a single controlling idea, which is expressed in a sentence called the topic sentence. A topic sentence has several important functions: it substantiates or supports an essay’s thesis statement.</p>
-                    </div>
-                    <div class="project-link">
-                        <a href="#" class="button" target="_blank">GitHub</a>
-                        <a href="#" class="button" target="_blank">Project</a>
-                    </div>
-                </div>
-                -- Project Card 4 --
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/project-4.png" alt="Project 4">
-                    </div>
-                    <div class="project-title">
-                        <h3>FULL RESPONSIVE</h3>
-                    </div>
-                    <div class="project-description">
-                        <p>A well-organized paragraph supports or develops a single controlling idea, which is expressed in a sentence called the topic sentence. A topic sentence has several important functions: it substantiates or supports an essay’s thesis statement.</p>
-                    </div>
-                    <div class="project-link">
-                        <a href="#" class="button" target="_blank">GitHub</a>
-                        <a href="#" class="button" target="_blank">Project</a>
-                    </div>
-                </div>
-                -- Project Card 5 --
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/project-5.svg" alt="Project 5">
-                    </div>
-                    <div class="project-title">
-                        <h3>FULL RESPONSIVE</h3>
-                    </div>
-                    <div class="project-description">
-                        <p>A well-organized paragraph supports or develops a single controlling idea, which is expressed in a sentence called the topic sentence. A topic sentence has several important functions: it substantiates or supports an essay’s thesis statement.</p>
-                    </div>
-                    <div class="project-link">
-                        <a href="#" class="button" target="_blank">GitHub</a>
-                        <a href="#" class="button" target="_blank">Project</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        -->
 
         <!-- Education Section -->
         <section id="education" class="content-section">
@@ -291,15 +184,6 @@
                         <h4>Clark University</h4>
                     </div>
                 </div>
-               <!-- <div id="education-entry">
-                    <div class="education-details">
-                        <span id="degree"><strong>Bachelor of Technology, Computer Science and Engineering</strong></span>
-                        <span id="duration"><strong>2016&nbsp;-&nbsp;2020</strong></span>
-                    </div>  
-                    <div class="education-university">
-                        <h4>VelTech University</h4>
-                    </div>
-                </div>-->
             </div>
         </section>
 
@@ -323,7 +207,7 @@
 
     <script>
         // Typewriter effect for roles
-        const roles = ["Full Stack Java Developer", "Web Developer"];
+        const roles = ["Full Stack Java Developer"];
         const rolesElement = document.getElementById("roles");
         let roleIndex = 0;
         let charIndex = 0;
@@ -354,7 +238,5 @@
             typeRole();
         });
     </script>
-
-
 </body>
 </html>
