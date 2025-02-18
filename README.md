@@ -1,7 +1,7 @@
 # 🌟 Welcome to My Portfolio   
 
 ## 🚀 Live Preview  
-🔗 [View Portfolio](https://aswinigangaraju.github.io/portfolio)   
+🔗 [View Portfolio](https://venkuu09.github.io/portfolio)   
 
 ## 🛠️ Technologies Used  
 - **Frontend:** HTML, CSS, JavaScript
