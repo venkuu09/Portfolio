@@ -3,192 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Your Name] - Java Full Stack Developer</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Aswini Gangaraju | Portfolio</title>
-    <link rel="logo" href="images/logo.gif" type="logo">
 </head>
 <body>
-    <!-- Sidebar Section -->
-    <div class="container">
-        <div class="sidebar">
-            <div class="profile">
-                <img src="images/profile.png" alt="Profile Picture">
-                <h1>Aswini Gangaraju</h1>
-                <p id="typewriter-text">I'm a,&nbsp;<span id="roles"></span></p>
-            </div>
-            <div class="sidebar-nav">
+    <header>
+        <div class="container">
+            <h1>[Your Name]</h1>
+            <p>Java Full Stack Developer</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hi, I'm [Your Name], a passionate and results-driven Java Full Stack Developer with over 10 years of experience...</p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="job">
+                <h3>Senior Full Stack Developer | [Company Name]</h3>
+                <p><em>January 2018 – Present</em></p>
                 <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li>Lead the development of an e-commerce platform...</li>
+                    <li>Utilized Java 8, Spring Boot, and Hibernate...</li>
+                    <li>Developed and maintained a responsive user interface using React.js...</li>
                 </ul>
             </div>
-            <div class="sidebar-footer">
-                <div class="social-media">
-                    <a href="https://github.com/aswinigangaraju" target="_blank"><img src="images/github.png" alt="GitHub"></a>
-                    <a href="https://www.linkedin.com/in/aswini-gangaraju/" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
-                    <a href="https://medium.com/@aswinigangaraju" target="_blank"><img src="images/medium.png" alt="Medium"></a>
-                </div>
+            <!-- Add other job experiences here -->
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skill-category">
+                <h3>Backend Technologies</h3>
+                <ul>
+                    <li>Java (JDK 8/11)</li>
+                    <li>Spring Boot, Hibernate</li>
+                    <li>RESTful APIs</li>
+                    <li>MySQL, PostgreSQL</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Frontend Technologies</h3>
+                <ul>
+                    <li>HTML5, CSS3 (SASS, LESS)</li>
+                    <li>JavaScript (ES6+), React.js, Angular</li>
+                    <li>Bootstrap, Material UI</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>DevOps & Tools</h3>
+                <ul>
+                    <li>Docker, Kubernetes</li>
+                    <li>AWS, Azure</li>
+                    <li>Git, GitHub</li>
+                </ul>
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- Main Content Section -->
-    <main>
-        <!-- About Section -->
-        <section id="about" class="content-section">
-            <h2>About</h2>
-            <h4>
-                <img src="images/working-emoji.png" alt="working-emoji" class="icon">
-                Senior Full Stack Java Developer
-            </h4>
-            <p>I am a passionate Senior Full Stack Developer with over 8 years of experience in designing and developing scalable, high-performance web applications. I specialize in building robust backend services and dynamic front-end experiences, following best practices in microservices architecture, cloud computing, and secure authentication.
-                <br><br>
-                Throughout my career, I have contributed to enterprise banking solutions, IoT platforms, and healthcare systems, ensuring efficiency, security, and seamless user experiences. I have a strong foundation in Agile methodologies and Test-Driven Development (TDD), writing clean, maintainable, and reliable code.
-                <br><br>
-                Currently, I work as a Senior Full Stack Developer at Fifth Third Bank, leading the development of NextGen Digital Banking, a modern financial platform that enhances online banking experiences. My passion lies in building scalable, user-friendly software while continuously learning and improving.
-                <br><br>
-                🚀 Passionate about innovation, continuous learning, and developing user-centric applications that solve real-world problems while ensuring the highest levels of scalability, security, and performance.
-            </p>
-        </section>
-
-        <!-- Experience Section -->
-        <section id="experience" class="content-section">
-            <h2>Experience</h2>
-            <div id="job">
-                <div class="job-entry-header">
-                    <h3>Senior Full Stack Developer</h3>
-                </div>
-                <div class="job-details">
-                    <span id="client-name"><strong>Fifth Third Bank</strong></span>
-                    <span id="duration"><strong>Aug 2023 - Present</strong></span>
-                </div>
-
-                <div class="job-entry-header">
-                    <h3>Full Stack Developer</h3>
-                </div>
-                <div class="job-details">
-                    <span id="client-name"><strong>Intel Corporation</strong></span>
-                    <span id="duration"><strong>Sep 2021 - July 2023</strong></span>
-                </div>
-
-                <div class="job-entry-header">
-                    <h3>Full Stack Developer</h3>
-                </div>
-                <div class="job-details">
-                    <span id="client-name"><strong>HSBC</strong></span>
-                    <span id="duration"><strong>Jan 2020 - Aug 2021</strong></span>
-                </div>
-
-                <div class="job-entry-header">
-                    <h3>Full Stack Developer</h3>
-                </div>
-                <div class="job-details">
-                    <span id="client-name"><strong>Aprima Medical Software</strong></span>
-                    <span id="duration"><strong>May 2018 - Dec 2019</strong></span>
-                </div>
-
-                <div class="job-entry-header">
-                    <h3>Software Developer Intern</h3>
-                </div>
-                <div class="job-details">
-                    <span id="client-name"><strong>Safexpress Private Limited</strong></span>
-                    <span id="duration"><strong>June 2016 - Apr 2018</strong></span>
-                </div>
-            </div>
-        </section>
-
-        <!-- Skills Section -->
-        <section id="skills" class="content-section">
-            <h2>Skills</h2>
-            <div class="skills-grid">
-                <div class="skills-item">HTML5</div>
-                <div class="skills-item">CSS3</div>
-                <div class="skills-item">SCSS</div>
-                <div class="skills-item">SASS</div>
-                <div class="skills-item">React.js</div>
-                <div class="skills-item">Redux</div>
-                <div class="skills-item">React-Router</div>
-                <div class="skills-item">Redux Toolkit</div>
-                <div class="skills-item">Angular</div>
-                <div class="skills-item">Angular CLI</div>
-                <div class="skills-item">RxJS</div>
-                <div class="skills-item">Tailwind CSS</div>
-                <div class="skills-item">Material UI</div>
-                <div class="skills-item">Bootstrap</div>
-                <div class="skills-item">Java</div>
-                <div class="skills-item">Spring Boot</div>
-                <div class="skills-item">Spring MVC</div>
-                <div class="skills-item">Hibernate</div>
-                <div class="skills-item">Node.js</div>
-                <div class="skills-item">Express.js</div>
-                <div class="skills-item">TypeScript</div>
-                <div class="skills-item">JavaScript</div>
-                <div class="skills-item">WebSockets</div>
-                <div class="skills-item">MQTT</div>
-                <div class="skills-item">Redis</div>
-                <div class="skills-item">MySQL</div>
-                <div class="skills-item">Oracle</div>
-                <div class="skills-item">MongoDB</div>
-                <div class="skills-item">Cassandra</div>
-                <div class="skills-item">Apache Kafka</div>
-                <div class="skills-item">RabbitMQ</div>
-                <div class="skills-item">AWS</div>
-                <div class="skills-item">EC2</div>
-                <div class="skills-item">S3</div>
-                <div class="skills-item">RDS</div>
-                <div class="skills-item">DynamoDB</div>
-                <div class="skills-item">Lambda</div>
-                <div class="skills-item">ECS</div>
-                <div class="skills-item">Google Cloud</div>
-                <div class="skills-item">Kubernetes</div>
-                <div class="skills-item">Jenkins</div>
-                <div class="skills-item">Docker</div>
-                <div class="skills-item">Maven</div>
-                <div class="skills-item">Terraform</div>
-                <div class="skills-item">Jenkins Pipelines</div>
-                <div class="skills-item">GitHub</div>
-                <div class="skills-item">Git</div>
-                <div class="skills-item">GitLab</div>
-                <div class="skills-item">OAuth</div>
-                <div class="skills-item">JWT</div>
-                <div class="skills-item">JUnit</div>
-                <div class="skills-item">Mockito</div>
-                <div class="skills-item">Cypress</div>
-                <div class="skills-item">Unit Testing</div>
-                <div class="skills-item">Integration Testing</div>
-                <div class="skills-item">Splunk</div>
-                <div class="skills-item">Agile</div>
-                <div class="skills-item">Scrum</div>
-                <div class="skills-item">Test-Driven Development (TDD)</div>
-                <div class="skills-item">Jira</div>
-            </div>
-        </section>
-
-        <!-- Education Section -->
-        <section id="education" class="content-section">
+    <section id="education">
+        <div class="container">
             <h2>Education</h2>
-            <div id="schools">
-                <div id="education-entry">
-                    <h3><strong>Master's in Computer Science</strong></h3>
-                    <span id="school-name"><strong>University of Southern California</strong></span>
-                    <span id="edu-duration"><strong>Aug 2023 - Present</strong></span>
-                </div>
-            </div>
-        </section>
+            <p><strong>Bachelor of Science in Computer Science</strong></p>
+            <p>[University Name], [Year]</p>
+        </div>
+    </section>
 
-        <!-- Contact Section -->
-        <section id="contact" class="content-section">
-            <h2>Contact</h2>
-            <div class="contact-info">
-                <p><strong>Email:</strong> <a href="mailto:aswinigangaraju253@gmail.com">aswinigangaraju253@gmail.com</a></p>
-                <p><strong>Phone:</strong> +1 (123) 456-7890</p>
-            </div>
-        </section>
-    </main>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Info</h2>
+            <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a></p>
+            <p>GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a></p>
+        </div>
+    </section>
 
-    <script src="scripts.js"></script>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
