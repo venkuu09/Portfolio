@@ -5,7 +5,7 @@ body {
     padding: 0;
     display: flex;
     /* background-color: #d2b4de; */
-    background-color: #a2c8e6;
+    background-color: #cddde9;
     min-height: 100vh;
     overflow-x: hidden;
 }
@@ -15,7 +15,7 @@ body {
     flex: 0 0 30%;
     max-width: 300px;
     /* background-color: #f4ecf7 ; */
-    background-color: #c9e2f3 ;
+    background-color: #cddde9 ;
     border-radius: 20px;
     box-shadow: #17202a;
     display: flex;
@@ -146,8 +146,8 @@ body {
     margin-top: 10px;
     margin-bottom: 50px;
     font-size: 1.2em;
-    color: #c9e2f3;
-    background-color: #5b2c6f;
+    color: #cddde9;
+    background-color: #b08dbe;
     border: none;
     border-radius: 8px;
     text-decoration: none;
@@ -155,7 +155,7 @@ body {
 }
 
 .sidebar-footer .email-button:hover {
-    background-color: #884ea0;
+    background-color: #c7a3d6;
 }
 
 .sidebar::-webkit-scrollbar {
@@ -178,7 +178,7 @@ main {
     overflow: hidden;
     min-width: 0;
     /* background-color: #d2b4de; */
-    background-color: #a2c8e6;
+    background-color: #cddde9;
 }
 
 #about {
@@ -202,7 +202,7 @@ main {
 
 .content-section {
     /* background-color: #f4ecf7; */
-    background-color: #c9e2f3;
+    background-color: #cddde9;
     padding: 30px;
     /* border: 2px solid #d2b4de; */
     border: 2px solid #a2c8e6;
@@ -383,7 +383,7 @@ main {
     text-align: center;
     padding-left: 100px;
     padding-right: 100px;
-    background-color: #c9e2f3;
+    background-color: #cddde9;
 }
 
 #contact h2 {
@@ -398,7 +398,7 @@ main {
     justify-content: space-evenly;;
     margin: 20px auto;
     max-width: 700px;
-    background: #c9e2f3;
+    background: #cddde9;
     padding: 50px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -428,7 +428,7 @@ main {
     border: 1px solid #d2b4de;
     outline: none;
     color: #5b2c6f;
-    background: #c9e2f3;
+    background: #cddde9;
     box-sizing: border-box;
 }
 
@@ -443,7 +443,7 @@ main {
 /* Placeholder Text Styling */
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
-    color: #a2c8e6;
+    color: #cddde9;
     font-family: 'Inter', sans-serif;
     font-size: 1em;
     font-style: normal;
