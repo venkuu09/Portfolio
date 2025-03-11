@@ -5,7 +5,7 @@ body {
     padding: 0;
     display: flex;
     /* background-color: #d2b4de; */
-    background-color: #86b4f1;
+    background-color: #dde4ed;
     min-height: 100vh;
     overflow-x: hidden;
 }
@@ -178,7 +178,7 @@ main {
     overflow: hidden;
     min-width: 0;
     /* background-color: #d2b4de; */
-    background-color: #9ec2f1;
+    background-color: #b5d1f4;
 }
 
 #about {
